@@ -1,0 +1,27 @@
+/************ Contacts ************/
+.contacts{
+  padding: 50px 0;
+  position: relative;
+}
+
+.contacts h2{
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+  color: #00BFB2;
+}
+
+.contacts p{
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+  line-height: 40px;
+}
+
+@media screen and (max-width: 576px) {
+  .contacts p {
+    text-align: left;
+  }
+}

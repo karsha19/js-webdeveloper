@@ -1,0 +1,44 @@
+/************ Skills ************/
+
+.skill {
+  padding:50px 0;
+  position: relative;
+}
+
+.skill-box {
+  text-align: center;
+}
+
+.skill-box h2 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #00BFB2;
+}
+
+.skill-slider {
+  width: 80%;
+  margin: 50px auto;
+  position: relative;
+  z-index: 0;
+}
+
+.skill-slider .item img{
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.skill p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 10px 0;
+}
+
+.react-multi-carousel-list {
+  width: 100%;
+}
+
+.react-multiple-carousel__arrow:hover {
+  background-color: rgba(0, 191, 178, 0.529) !important;
+}

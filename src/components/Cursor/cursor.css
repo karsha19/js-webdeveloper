@@ -1,0 +1,35 @@
+.cursor {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 30px;
+  height: 30px;
+  transform: translate(-50%, -50%);
+  border-radius: 100%;
+  z-index: 999;
+  background-color: rgb(0, 0, 0);
+  pointer-events: none;
+  color: black;
+  background-color: rgb(0, 193, 145);
+  mix-blend-mode: exclusion;
+  transition: 0.3s;
+  transition-property: width, height, border-radius, clip-path;
+  color: transparent;
+}
+
+.cursor-hover {
+  width: 50px;
+  height: 50px;
+  padding: 12px 0;
+  clip-path: initial;
+  border-radius: 100%;
+  color: #000000;
+  background-color: rgba(0, 215, 179, 0.808);
+  border: 1px solid rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  mix-blend-mode: normal;
+  transition-property: color, width, height, border-radius, clip-path, mix-blend-mode;
+}
