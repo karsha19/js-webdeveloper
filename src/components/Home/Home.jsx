@@ -4,7 +4,7 @@ import { Container, Row, Col, ThemeProvider} from 'react-bootstrap';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import Particle from '../Particle/Particle';
-import pdf from '../../assets/img/CVJS.pdf'
+import pdf from '../../assets/img/CV.pdf'
 
 export const Home = () => {
 
@@ -42,7 +42,7 @@ export const Home = () => {
                             <a
                                 href={pdf}
                                 target='_blank'
-                                download="CVJS.pdf"
+                                download="CV.pdf"
                                 rel="noreferrer"
                                 onMouseEnter={handleMouseEnter}
                                 onMouseLeave={handleMouseLeave}
